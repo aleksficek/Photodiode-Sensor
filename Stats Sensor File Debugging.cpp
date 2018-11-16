@@ -89,11 +89,11 @@ int main() {
 		j++;
 		// cout << minus_counter << "Counter <-" << endl;
 		// cout << counter << endl;
-		cout << (counter - minus_counter ) << endl;
+		cout << (counter - 2 * minus_counter ) << endl;
 		// cout << j << endl;
 	}
 	
-	total_dist = DIST * (counter - minus_counter);
+	total_dist = DIST * (counter - 2 * minus_counter);
 	cout << "Total distance is " << total_dist;	
 	
 
