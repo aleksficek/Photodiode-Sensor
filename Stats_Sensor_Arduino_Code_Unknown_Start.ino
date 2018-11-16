@@ -53,7 +53,7 @@ void loop() {
     state[0] = prev_state[0];
   }
   
-  total_dist = DIST * (counter - minus_counter);
+  total_dist = DIST * (counter - 2 * minus_counter);
   Serial.println(total_dist);
 }
 
